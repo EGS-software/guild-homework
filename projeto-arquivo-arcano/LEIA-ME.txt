@@ -7,7 +7,7 @@
 ------------------------------------------------------------------------
 • Guilda: Guilda 3 - O Arquivo Arcano
 • Tema: Tabela Hash com Tratamento de Colisão por Encadeamento Separado
-• Integrantes: João Alfredo Williges Cunha(140493), João Pedro Mussi de Medeiros(), João Victor Filipim(), Mauro Pezzeta Roncata(137284)
+• Integrantes: João Alfredo Williges Cunha(140493), João Pedro Mussi de Medeiros(141814), João Victor Filipim(140524), Mauro Pezzeta Roncata(137284)
 • Disciplina: Estrutura de Dados
 
 2. PRÉ-REQUISITOS
