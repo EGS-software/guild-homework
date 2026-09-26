@@ -1,0 +1,67 @@
+========================================================================
+    GUILDA 3: O ARQUIVO ARCANO - BIBLIOTECA DA BRASILÂNDIA
+    Estrutura de Dados - Projeto Módulo Tabela Hash
+========================================================================
+
+1. INFORMAÇÕES DO GRUPO
+------------------------------------------------------------------------
+• Guilda: Guilda 3 - O Arquivo Arcano
+• Tema: Tabela Hash com Tratamento de Colisão por Encadeamento Separado
+• Integrantes: João Alfredo Williges Cunha(140493), João Pedro Mussi de Medeiros(), João Victor Filipim(), Mauro Pezzeta Roncata(137284)
+• Disciplina: Estrutura de Dados
+
+2. PRÉ-REQUISITOS
+------------------------------------------------------------------------
+• Java Development Kit (JDK): Versão 21 ou superior
+• IDE Recomendada: IntelliJ IDEA (Community ou Ultimate)
+• Dependências: Nenhuma biblioteca externa (implementado do zero)
+
+3. ESTRUTURA DO PROJETO
+------------------------------------------------------------------------
+projeto-arquivo-arcano/
+├── src/
+│   ├── model/
+│   │   └── Pergaminho.java      # Classe Entidade (id, titulo, categoria, poderMistico)
+│   ├── hashtable/
+│   │   ├── NoHash.java          # Nó da Lista Encadeada Simples
+│   │   └── TabelaHash.java      # TAD Tabela Hash (h(k) = |k| mod M, busca, inserção, remoção, alpha)
+│   └── main/
+│       └── Main.java            # Execução e Simulação do Desafio Lúdico
+├── LEIA-ME.txt                  # Instruções de compilação e execução
+├── Manual_do_Desenvolvedor.pdf  # Relatório técnico com análises e diagramas
+├── Slides.pdf                   # Apresentação visual da guilda
+└── Declaracao_Uso_IA.pdf        # Formulário oficial de transparência de IA
+
+4. COMO EXECUTAR NO INTELLIJ IDEA
+------------------------------------------------------------------------
+1. Abra o IntelliJ IDEA.
+2. Acesse 'File' -> 'Open...' e selecione a pasta raiz do projeto.
+3. Configure o SDK para o Java 21:
+   - Vá em 'File' -> 'Project Structure...' -> 'Project'.
+   - Em 'SDK', selecione o Java 21.
+4. Confirme que a pasta 'src' está definida como raiz de código fonte:
+   - Clique com o botão direito na pasta 'src' -> 'Mark Directory as' -> 'Sources Root'.
+5. Abra o arquivo 'src/main/Main.java'.
+6. Execute clicando no ícone verde de 'Play' ao lado do método 'main' (ou pressione Shift + F10).
+
+5. COMO EXECUTAR VIA TERMINAL (LINHA DE COMANDO)
+------------------------------------------------------------------------
+1. Abra o terminal e navegue até a pasta raiz do projeto.
+2. Compile as classes criando a pasta de binários ('bin'):
+
+   javac -d bin src/model/*.java src/hashtable/*.java src/main/*.java
+
+3. Execute a classe principal indicando o diretório dos binários:
+
+   java -cp bin main.Main
+
+6. COMPORTAMENTO DO DESAFIO LÚDICO (MAIN.JAVA)
+------------------------------------------------------------------------
+A execução simula o gerenciamento de pergaminhos na Biblioteca da Brasilândia:
+1. Exibição da tabela inicial vazia (M = 7) e Fator de Carga = 0,00.
+2. Inserção de chaves com colisão intencional nos slots 0 (IDs 7, 14, 21) e 3 (IDs 10, 17).
+3. Validação e bloqueio de chave duplicada (ID 14).
+4. Busca por chaves com exibição da contagem exata de comparações.
+5. Remoção do ID 14 (nó intermediário da lista encadeada) e recálculo do Fator de Carga.
+6. Validação de acesso pós-remoção, confirmando a preservação da lista e a redução no número de comparações.
+========================================================================
