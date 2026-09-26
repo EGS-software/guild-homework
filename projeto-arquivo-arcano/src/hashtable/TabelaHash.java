@@ -100,8 +100,8 @@ public class TabelaHash {
             }
             System.out.println();
         }
-        System.out.printf("Fator de Carga (alpha = N/M): %.2f (%d elementos em %d posições\n", calcularFatorDeCarga(), quantidade, M);
-        System.out.println("===========================================\\n");
+        System.out.printf("Fator de Carga (alpha = N/M): %.2f (%d elementos em %d posições)\n", calcularFatorDeCarga(), quantidade, M);
+        System.out.println("===========================================");
     }
 
     private double calcularFatorDeCarga() {

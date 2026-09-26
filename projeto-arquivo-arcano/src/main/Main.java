@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("==================================================");
         System.out.println(" GUILDA 3: O ARQUIVO ARCANO - BIBLIOTECA DA BRASILÂNDIA");
-        System.out.println("==================================================\\n");
+        System.out.println("==================================================");
 
         int M = 7; // M primo para facilitar a visualização de colisões
         TabelaHash tabela = new TabelaHash(M);
