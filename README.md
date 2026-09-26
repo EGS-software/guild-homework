@@ -41,7 +41,7 @@
   - Análise de Complexidade (Big-O) e Fator de Carga.
 
 ### 📦 3. Empacotamento do Arquivo Final (.zip)
-- [ ] Compactar todos os entregáveis no arquivo **`TTG1_Grupo[Numero]_ED.zip`** contendo:
+- [ ] Compactar todos os entregáveis no arquivo **`TTG1_Grupo[3]_ED.zip`** contendo:
   - `/src` (com os arquivos `.java`);
   - `LEIA-ME.txt`;
   - `Manual_do_Desenvolvedor.pdf`;
