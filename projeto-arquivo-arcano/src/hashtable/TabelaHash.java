@@ -57,7 +57,7 @@ public class TabelaHash {
             atual = atual.getProximo();
         }
 
-        System.out.printf("Busca ID %d -> Não encontrado (%d comparações no índice [%d].\n", id, comparacoes, indice);
+        System.out.printf("Busca ID %d -> Não encontrado (%d comparações no índice [%d].\n)", id, comparacoes, indice);
         return null;
     }
 
