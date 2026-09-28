@@ -26,6 +26,7 @@ public class Main {
         tabela.inserir(new Pergaminho(21, "Pergaminho do Trovão", "Evocação", 95));
         tabela.inserir(new Pergaminho(10, "Runa do Vazio", "Adivinhação", 70)); // mod 7 = 3
         tabela.inserir(new Pergaminho(17, "Selo da Proteção", "Invocação", 80)); // mod 7 = 3
+        tabela.exibirTabela();
 
         System.out.println("\n--- Testando Inserção de Chave Duplicada (ID 14) ---");
         tabela.inserir(new Pergaminho(14, "Códice Duplicado", "Ilegal", 0));
